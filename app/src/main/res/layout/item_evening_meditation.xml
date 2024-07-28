@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_evening_meditation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button_eveningMeditation"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/black"
+        android:drawableLeft="@drawable/night"
+        android:gravity="center"
+        android:text="Thiền định buổi tối"
+        android:textSize="20sp" />
+</LinearLayout>

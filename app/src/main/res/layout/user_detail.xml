@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/userDetailLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView_full_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Họ và tên"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText_full_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập họ và tên"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView_birth_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ngày sinh"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText_birth_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="YYYY-MM-DD"
+        android:inputType="date"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView_height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chiều cao (cm)"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập chiều cao (cm)"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/textView_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cân nặng (kg)"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập cân nặng (kg)"
+        android:inputType="numberDecimal"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_outSave"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#000000"
+            android:text="HỦY"
+            android:textSize="15sp"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#000000"
+            android:text="LƯU"
+            android:textSize="15sp"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+
+</LinearLayout>

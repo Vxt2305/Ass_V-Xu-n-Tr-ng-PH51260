@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "885846920043",
+    "project_id": "ass-android-2-33b21",
+    "storage_bucket": "ass-android-2-33b21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885846920043:android:d4d8b06e55777c34bf1a2e",
+        "android_client_info": {
+          "package_name": "com.example.baiduthiass"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIAho6X5Y04mRM_brjJaVusHEFdubw20U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

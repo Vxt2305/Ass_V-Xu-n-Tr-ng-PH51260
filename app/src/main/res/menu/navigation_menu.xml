@@ -1,0 +1,67 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <!-- Các mục chức năng -->
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Trang chủ" />
+
+        <item
+            android:id="@+id/nav_manage_exercise"
+            android:icon="@drawable/run"
+            android:title="Chạy bộ" />
+
+        <item
+            android:id="@+id/nav_manage_writing"
+            android:icon="@drawable/book"
+            android:title="Viết lời biết ơn" />
+
+        <item
+            android:id="@+id/nav_manage_food"
+            android:icon="@drawable/eat"
+            android:title="Quản lý BMI" />
+
+        <item
+            android:id="@+id/nav_manage_sleep"
+            android:icon="@drawable/sleep"
+            android:title="Quản lý giấc ngủ" />
+
+        <item
+            android:id="@+id/nav_manage_meditation"
+            android:icon="@drawable/thien"
+            android:title="Luyện tập thiền định" />
+
+        <item
+            android:id="@+id/nav_manage_counseling"
+            android:icon="@drawable/sick"
+            android:title="Tư vấn tâm lý" />
+
+        <!-- Divider để phân cách các mục -->
+        <item
+            android:id="@+id/nav_divider"
+            android:enabled="false"
+            android:title="" />
+
+        <!-- Mục thông tin cá nhân -->
+        <item
+            android:id="@+id/nav_information"
+            android:icon="@drawable/person"
+            android:title="Thông tin cá nhân" />
+
+        <!-- Mục đổi mật khẩu -->
+        <item
+            android:id="@+id/nav_updatePassword"
+            android:icon="@drawable/lock"
+            android:title="Đổi mật khẩu" />
+
+        <!-- Mục đăng xuất -->
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Đăng xuất" />
+
+    </group>
+
+</menu>

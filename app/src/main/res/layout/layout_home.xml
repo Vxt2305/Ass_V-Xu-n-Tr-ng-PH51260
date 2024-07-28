@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/profile" />
+
+                <TextView
+                    android:id="@+id/textView_username_home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Xin chào ???"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imageView"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginTop="10dp"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="Hãy xem lại những gì bạn \nđã làm được nào!"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp">
+
+                <Button
+                    android:id="@+id/button_chayBo"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_background"
+                    android:drawableTop="@drawable/run_home"
+                    android:padding="25dp"
+                    android:text="Chạy bộ"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:backgroundTint="#37C9BB" />
+
+                <Button
+                    android:id="@+id/button_bietOn"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_background"
+                    android:drawableTop="@drawable/book_home"
+                    android:padding="25dp"
+                    android:text="Biết ơn"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:backgroundTint="#FF9800" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_background"
+                    android:drawableTop="@drawable/eat_home"
+                    android:padding="25dp"
+                    android:text="BMI"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:backgroundTint="#E91E63" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_background"
+                    android:drawableTop="@drawable/sleep_home"
+                    android:padding="25dp"
+                    android:text="Giấc ngủ"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:backgroundTint="#2196F3" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
